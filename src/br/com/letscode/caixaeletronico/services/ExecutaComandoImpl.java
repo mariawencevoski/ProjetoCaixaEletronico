@@ -39,8 +39,8 @@ public class ExecutaComandoImpl implements ExecutaComando {
         } else if (comando == 2) {
             System.out.println();
             System.out.println("Digite o número da conta: ");
-            System.out.println();
             int numero = entrada.nextInt();
+            System.out.println();
             System.out.println("Digite o valor do depósito: ");
             double valor = entrada.nextInt();
             this.deposito.execute(valor, numero);
@@ -55,7 +55,6 @@ public class ExecutaComandoImpl implements ExecutaComando {
         } else if (comando == 4) {
             System.out.println();
             System.out.println("Digite o valor da transferência: ");
-            System.out.println();
             double valor = entrada.nextInt();
             this.transferencia.execute(valor);
             System.out.println();
