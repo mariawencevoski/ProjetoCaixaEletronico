@@ -6,6 +6,5 @@ public interface Transferencia {
 
     void transferir(double valor, Conta numeroContaDestino, Conta origem);
 
-
-
+    void execute(double valor);
 }

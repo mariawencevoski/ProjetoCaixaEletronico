@@ -9,6 +9,7 @@ public class ListarComandosImpl implements ListarComandos {
         System.out.println("1 - Sacar");
         System.out.println("2 - Depositar");
         System.out.println("3 - Abrir Conta");
+        System.out.println("4 - Transferir");
     }
 
 
